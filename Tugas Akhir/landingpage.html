@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Poppins:ital,wght@0,400;0,500;0,600;1,800&display=swap" 
+    rel="stylesheet">
+
+    
+    <!--AOS ANIMATION-->
+    <link rel="stylesheet" href="features/aos-js/dist/aos.css">
+
+    
+    <title>Jobbins landing page</title>
+
+  </head>
+  <body>
+    
+    <!--Navigation Bar (login,daftar,perusahaan)-->
+
+    <nav class="navbar sticky-top banner">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="img/Jobbins.png" alt="logo" width="120" height="24">
+        </a>
+        <div class="col"></div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Cari pekerjaan" aria-label="Search">
+          <button class="btn search-button" type="submit">Cari</button>
+        </form>
+        <a href="log-account.html">
+          <button class="btn login-button1">Login</button>
+        </a>
+        <a href="reg-account.html">
+          <button class="btn daftar-button1">Daftar</button>
+        </a>
+        <a href="perusahaan.html">
+          <button class="btn perusahaan-button1">PERUSAHAAN</button>
+        </a>
+        <div class="btn-group">
+          <button class="btn dropdown-button1 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Ketika login 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+            <li><a class="dropdown-item" href="saved.html">Tersimpan</a></li>
+            <li><a class="dropdown-item" href="#">Cari berdasarkan profil anda</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+<!--Slide Iklan-->
+      <section class="banner2" data-aos="zoom-out" data-aos-delay="100">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3200">
+              <a href="log-account.html"><img src="img/banner.png" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <a href="log-account.html"><img src="img/Group 11.png" class="d-block w-100" alt="..."></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3200">
+              <a href="log-account.html"><img src="img/Group 12.png" class="d-block w-100" alt="..."></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+
+    <!--Navigation page-->
+      <section class="mid-font bg-theme-mt-5" data-aos="zoom-out" data-aos-delay="100">
+        <div class="card text-center">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Lowongan kerja paling populer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Berdasarkan profil anda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rekomendasi Jobbins</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+<br>
+
+<!--Cards Loker-->
+
+
+  <section class="cards">
+    <div class="container mt-3">
+      <div class="row mt-5">
+        <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card text-left" style="width: 18rem;">
+              <img src="img/loker1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title thick-font">Front End Developer</h5>
+                <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+                <div class="row">
+                  <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                    <div class="col">
+                      <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+                    </div>  
+                  </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                  <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                </svg>
+                <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+                <a href="lokerpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+              </div>
+            </div>
+         </div>
+         <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card text-left" style="width: 18rem;">
+            <img src="img/loker1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title thick-font">Front End Developer</h5>
+              <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+              <div class="row">
+                <div class="col">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                  <div class="col">
+                    <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+                  </div>  
+                </div>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+              </svg>
+              <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+              <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+            </div>
+          </div>
+       </div>
+       <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="card text-left" style="width: 18rem;">
+          <img src="img/loker1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title thick-font">Front End Developer</h5>
+            <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+            <div class="row">
+              <div class="col">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <div class="col">
+                  <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+                </div>  
+              </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+              <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+            </svg>
+            <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+            <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+          </div>
+        </div>
+     </div>
+     <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="700">
+      <div class="card text-left" style="width: 18rem;">
+        <img src="img/loker1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title thick-font">Front End Developer</h5>
+          <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+          <div class="row">
+            <div class="col">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+              <div class="col">
+                <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+              </div>  
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+          </svg>
+          <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+          <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+        </div>
+      </div>
+   </div>
+   <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="card text-left" style="width: 18rem;">
+      <img src="img/loker1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title thick-font">Front End Developer</h5>
+        <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+        <div class="row">
+          <div class="col">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg>
+            <div class="col">
+              <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+            </div>  
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+          <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+        </svg>
+        <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+        <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+      </div>
+    </div>
+ </div>
+ <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+  <div class="card text-left" style="width: 18rem;">
+    <img src="img/loker1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title thick-font">Front End Developer</h5>
+      <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+      <div class="row">
+        <div class="col">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+          <div class="col">
+            <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+          </div>  
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+      </svg>
+      <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+      <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="500">
+  <div class="card text-left" style="width: 18rem;">
+    <img src="img/loker1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title thick-font">Front End Developer</h5>
+      <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+      <div class="row">
+        <div class="col">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+          <div class="col">
+            <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+          </div>  
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+      </svg>
+      <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+      <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="700">
+  <div class="card text-left" style="width: 18rem;">
+    <img src="img/loker1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title thick-font">Front End Developer</h5>
+      <p class="card-text smaller-font">PT Dana Pinjaman Inklusif</p>
+      <div class="row">
+        <div class="col">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
+          <div class="col">
+            <p class="card-text  verysmall-font text-muted" >Jakarta Barat</p>
+          </div>  
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
+        <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+      </svg>
+      <p class="card-text verysmall-font text-muted">Gaji diatas ekspektasi</p>
+      <a href="lamaranpage.html" class="btn btn-primary smaller-font">Lihat selengkapnya ></a>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>  
+    <br>
+    <br>
+    <div class="more-button" data-aos="fade-up">
+      <a href="#">
+        <button class="btn daftar-button">Lebih banyak 🡻 </button>
+        </a>
+    </div>
+</section>
+
+
+    <br>
+    <br>
+
+    <!--Perusahaan cards-->
+    <div class="small-font" data-aos="zoom-in">
+      <h1 class="text-center">Perusahaan Ternama dan Terpopuler</h1>
+    </div>
+
+    <section class="perusahaan-cards">
+      <div class="smaller-font text-center">
+        <div class="container mt-3">
+          <div class="row mt-5">
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/bri.jpg" alt="Bannerc">
+                  <h1 class="text-center">BRI</h1>
+                  <p class="description text-left">Bank Rakyat Indonesia (BRI) adalah salah satu bank milik pemerintah yang terbesar di Indonesia. Bank Rakyat Indonesia (BRI) didirikan di Purwokerto, Jawa Tengah oleh Raden Bei Aria Wirjaatmadja tanggal 16 Desember 1895</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/bca.jpg" alt="Bannerc">
+                  <h1 class="text-center">BCA</h1>
+                  <p class="description">PT Bank Central Asia Tbk adalah bank swasta terbesar di Indonesia. Bank ini didirikan pada 21 Februari 1957 dengan nama Bank Central Asia NV dan pernah menjadi bagian penting dari Salim Group. Sekarang bank ini dimiliki oleh salah satu grup produsen rokok terbesar keempat di Indonesia, Djarum</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="500">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/telkom.jpg" alt="Bannerc">
+                  <h1 class="text-center">Telkom Indonesia</h1>
+                  <p class="description">PT Telkom Indonesia Tbk, biasa disebut Telkom Indonesia atau Telkom saja adalah perusahaan informasi dan komunikasi serta penyedia jasa dan jaringan telekomunikasi secara lengkap di Indonesia</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" style="width: 18rem;" data-aos="fade-up" data-aos-delay="700">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/gg.jpg" alt="Bannerc">
+                  <h1 class="text-center">Gudang Garam</h1>
+                  <p class="description">PT Gudang Garam Tbk adalah sebuah merek/perusahaan produsen rokok terbesar keenam di Indonesia setelah STTC. Didirikan pada 26 Juni 1958 oleh Surya Wonowidjojo, perusahaan rokok ini merupakan peringkat pertama dan terbesar keenam di Indonesia menurut tahun pendiriannya dalam produksi rokok kretek</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container mt-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="row mt-5">
+            <div class="col-md-3 mt-4">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/bni.jpeg" alt="Bannerc">
+                  <h1 class="text-center">BNI</h1>
+                  <p class="description">Bank Negara Indonesia atau BNI adalah sebuah institusi bank milik pemerintah, dalam hal ini adalah perusahaan BUMN, di Indonesia. Dalam struktur manajemen organisasinya, Bank Negara Indonesia, dipimpin oleh seorang Direktur Utama yang saat ini dijabat oleh Royke Tumilaar</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/astra.jpg" alt="Bannerc">
+                  <h1 class="text-center">Astra</h1>
+                  <p class="description">PT Astra International - Honda adalah salah satu perusahaan Astra International yang bergerak di bidang operations dengan produk sepeda motor Honda. Didirikan pada tahun 1970, dengan nama Honda Division, Astra Motor dahulu merupakan main distributor sepeda motor Honda.</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="500">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/garuda.png" alt="Bannerc">
+                  <h1 class="text-center">Garuda</h1>
+                  <p class="description">Garuda Indonesia IDX: GIAA adalah Maskapai Penerbangan Nasional Indonesia, yang berkantor pusat di Bandar udara Internasional Soekarno–Hatta. Maskapai ini adalah suksesor dari KLM Interinsulair Bedrijf. Garuda Indonesia merupakan anggota dari SkyTeam dan Maskapai Terbesar kedua di Indonesia setelah Lion Air.</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mt-4" data-aos="fade-up" data-aos-delay="700">
+              <div class="containerc">
+                <div class="boxc">
+                  <input type="checkbox" id="check-readmore">
+                  <img src="img/indofood.jpg" alt="Bannerc">
+                  <h1 class="text-center">Indofood</h1>
+                  <p class="description">PT Indofood Sukses Makmur Tbk atau lebih dikenal dengan nama Indofood merupakan produsen berbagai jenis makanan dan minuman yang bermarkas di Jakarta, Indonesia.</p>
+                  <label for="check-readmore" class="button-readmore"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+
+    
+    
+    <!--Iklan Perusahaan-->
+    <section class="iklan" data-aos="flip-down" data-aos-delay="100">
+    <div class="container mt-5">
+        <div class="row">
+          
+          <div class="col-sm-3">
+
+            <img src="img/iklan-footer.png" class="salaman"> </div>
+            <div class="col-lg-3 col-lg-5">
+
+              <p class="iklan-font"> Pasang Iklan Perusahaan anda di Jobbins! maka anda dijamin mendapatkan karyawan berkualitas dengan harga iklan yang terjangkau! </p>
+  </div> <div class="col">
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a href="perusahaan.html" class="btn btn-iklan" type="button">KLIK DISINI>></a>
+  </div></div>
+
+          </div>
+          </div>
+        </section>
+
+<!--Arrow up-->
+<div class="arrow-back">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+       <a href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg></a></div>
+        <div class="col"></div>
+      
+    </div>
+  </div>
+</div>
+    <!--Footer-->
+    <section class="footer">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <h1 class="judul-footer">Jobbins</h1>
+            <br>
+            <p class="teks-footer">Jobbins merupakan platform lowongan pekerjaan online, Jobbins akan membantu masyarakat mencari pekerjaan sesuai minat dan bakat mereka. </p>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+              <div class="col-sm-1">
+                <a href="#">
+                <img src="img/Facebook.png" alt="fb"> </a>
+                </div>
+                <div class="col-sm-1">
+                  <a href="#">
+                  <img src="img/Twitter.png" class="twitter" alt="twt"> </a>
+                  </div>
+                  <div class="col-sm-1">
+                    <a href="#">
+                    <img src="img/Instagram.png" alt="ig"> </a>
+                   </div> 
+                   <div class="col-sm-1">
+                    <a href="#">
+                    <img src="img/entypo_mail.png" class="img-fluid" alt="email-png">
+                  </a>
+                </div> 
+            <div class="row">
+              <p class="copyright">© Jobbins 2021. Hak Cipta Dilindungi Undang-Undang.</p>
+            </div>
+          </div>
+          </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+
+        <!--AOS JS-->
+        <script src="features/aos-js/dist/aos.js" ></script>
+
+        <script>
+          AOS.init();
+        </script>
+
+  </body>
+</html>
+
+
+
+

@@ -1,0 +1,580 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+.banner{
+    background: linear-gradient(169.4deg, #7000FF 36.55%, rgba(0, 255, 240, 0) 104.3%);
+}
+
+.navbar-judul{
+
+    font-family: 'Poppins';
+font-size: 24px;
+font-style: italic;
+font-weight: 800;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.navbar-teks{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    margin-left: 650px;
+    text-align: left;
+    
+
+}
+
+.judul-banner1{
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 147px;
+
+    
+}
+.judul-banner2{
+    
+font-family: 'Poppins';
+font-size: 36px;
+font-style: italic;
+font-weight: 800;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.judul-banner3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+
+.image-banner{
+    height: 270px;
+    width: 709px;
+    left: 696px;
+    top: 295px;
+    border-radius: 0px;
+    margin-top: 150px;
+    margin-right: 20px;
+    background-image: url(../img/homebanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.perusahaan-button{
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: purple;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+
+.daftar-button{
+    background-color: purple;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;   
+     margin-left: 30px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+
+  
+}
+
+.login-button{
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: purple;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
+
+.login-button1{
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: purple;
+    margin-left: 50px;
+}
+
+.perusahaan-button1{
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: purple;
+    margin-left: 10px;
+}
+
+.daftar-button1{
+    background-color: purple;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 10px;
+}
+
+.search-button{
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.explore-button{
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 80px;
+}
+
+.logout-button{
+    background-color: purple;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 50px;
+}
+
+.font-popular{
+    height: 55px;
+width: 379px;
+left: 60px;
+top: 662px;
+border-radius: nullpx;
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.font-lebihbanyak{
+    height: 55px;
+width: 276px;
+left: 1102px;
+top: 662px;
+border-radius: nullpx;
+
+}
+
+.smaller-font{
+font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+
+}
+
+.small-font{
+    font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.mid-font{
+    font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.thick-font{
+    font-family: 'Poppins';
+font-size: 24px;
+font-style: thick;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.verysmall-font{
+    font-family: 'Poppins';
+font-size: 14px;
+font-style: thin;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.more-button{
+    text-align: center;
+}
+
+.iklan{
+    margin-left: 15px;
+}
+
+.arrow-back{
+    text-align: center;
+}
+
+.footer{
+    background-color: white;
+}
+
+.judul-footer{
+    font-family: 'Poppins';
+font-size: 48px;
+font-style: italic;
+font-weight: 800;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.teks-footer{
+    font-family: 'Poppins';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.01em;
+text-align: left;
+margin-left: 10px;
+
+}
+
+.copyright{
+    font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: center;
+
+}
+
+.lokerimg-1{
+    width: 1400px;
+}
+
+.pt-font{
+    font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+.pt-font1{
+    
+font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+.deskripsifont-tayang{
+font-family: 'Poppins';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+}
+
+.deskripsifont-judul{
+font-family: 'Poppins';
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+}
+
+.deskripsifont-paragraf{
+font-family: 'Poppins';
+font-size: 16px;
+font-style: thin;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.01em;
+text-align: left;
+}
+
+.long-line{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.smaller1-font{
+    font-family: 'Poppins';
+font-size: 18px;
+font-style: thick;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.huge-font{
+    font-family: 'Poppins',sans-serif;
+font-size: 25px;
+font-style: bold;
+font-weight: 800;
+
+}
+
+.selamat-font{
+    font-family: 'Poppins',sans-serif;
+font-size: 23px;
+font-style: thick;
+font-weight: 600;
+
+}
+
+.selamat1-font{
+    font-family: 'Poppins',sans-serif;
+font-size: 21px;
+font-style: thin;
+font-weight: 400;
+
+}
+
+.iklan-img{
+    margin-right: 100px;
+}
+
+.iklan{
+    background: #00FFF0;
+
+}
+
+.iklan-font{    
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+
+.salaman{
+    height: 271.0457458496094px;
+width: 241px;
+left: 119px;
+top: 2354px;
+border-radius: 0px;
+
+}
+
+.btn-iklan{
+        background-color: white;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        color: purple;height: 37px;
+        width: 164px;
+        left: 1133px;
+        top: 2502px;
+        border-radius: 0px;
+        margin-top: 100px;
+        margin-right: 80px;
+        
+    
+    
+}
+
+.twitter{
+    height: 50px;
+width: 60px;
+left: 1072px;
+top: 172px;
+border-radius: 0px;
+margin-top: 7px;
+margin-left: 5px;
+
+}
+
+
+.juduliklan-font{
+
+   
+        font-family: 'Poppins';
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+        line-height: 66px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        
+    }
+
+
+    .img-murah{
+        height: 200px;
+width: 200px;
+margin-left: 50px;
+
+    }
+
+    .img-kualitas{
+        height: 180px;
+width: 200px;
+margin-left: 50px;
+margin-top: 20px;
+
+
+    }
+.img-karyawan{
+    height: 200px;
+width: 200px;
+margin-left: 60px;
+
+
+}
+
+.banner-testimoni{
+    background: linear-gradient(169.4deg, #7000FF 36.55%, rgba(0, 255, 240, 0) 104.3%);
+
+}
+
+.company-font{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: thin;
+    font-weight: 300;
+    line-height: 53px;
+    letter-spacing: 0.145em;
+    text-align: center;
+    
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+
+.containerc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.boxc {
+  width: 300px;
+}
+.boxc img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.description {
+  line-height: 18px;
+  max-height: calc(18px * 3);
+  overflow: hidden;
+}
+.button-readmore::after {
+  content: 'Read more'
+}
+.button-readmore {
+  padding: 5px 10px;
+  background: #efefef;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-readmore:hover {
+  background: #ccc;
+}
+
+#check-readmore:checked ~ .button-readmore::after {
+  content: 'Read less'
+}
+#check-readmore:checked ~ .description {
+  max-height: 100vh;
+}
+
+#check-readmore {
+  position: absolute;
+  left: -100px;
+}
+
+.dropdown-button1{
+    background-color: purple;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 10px;
+}
+
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.judul-saved{
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    
+}
+
+  
+
+  
